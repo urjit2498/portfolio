@@ -360,6 +360,7 @@ const BackgroundAnimation = () => (
       </defs>
     </svg>
   </div>
+
 );
 
 export default BackgroundAnimation;
