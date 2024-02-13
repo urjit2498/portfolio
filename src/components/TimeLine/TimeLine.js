@@ -69,7 +69,8 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle style={{margin: "50px 0px"}}>About Me</SectionTitle>
       <SectionText>
         Hello there! I'm Urjit Shah, a Software engineer with a deep
         passion for Website development. I thrive on React JS, Node JS, Express, MySQL and MongoDB to build web applications.
