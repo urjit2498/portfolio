@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section nopadding id='tech' style={{marginTop: "50px"}}>
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle style={{marginTop: "50px"}}>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in a web development world.
       From Back-end To Design
