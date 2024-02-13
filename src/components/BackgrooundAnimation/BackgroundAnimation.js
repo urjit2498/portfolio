@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const BackgroundAnimation = () => (
-  <div>
+  <Fragment>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
@@ -359,7 +359,7 @@ const BackgroundAnimation = () => (
         </linearGradient>
       </defs>
     </svg>
-  </div>
+  </Fragment>
 
 );
 

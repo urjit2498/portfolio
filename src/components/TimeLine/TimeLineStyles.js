@@ -152,3 +152,34 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+export const AboutMeSectionData = styled.h4`
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  display: flex;
+  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0 10px 0;
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 4px;
+  }
+`
+
+export const AboutMeSectionText = styled.p`
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  padding-right: 16px;
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 16px;
+    line-height: 18px;
+    padding-right: 32px;
+  }
+`
